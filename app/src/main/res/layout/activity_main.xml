@@ -22,15 +22,15 @@
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/popcorn"/>
+            android:src="@drawable/production"/>
 
     </androidx.cardview.widget.CardView>
 
     <EditText
         android:id="@+id/searchEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Search your favorite m..."
+        android:layout_height="48dp"
+        android:hint="Search your MOVIE"
         android:textColorHint="@color/white"
         android:textColor="#C3700C"
         android:textAlignment="center"/>
