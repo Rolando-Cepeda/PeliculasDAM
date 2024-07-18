@@ -9,5 +9,5 @@ interface MovieApiService {
     suspend fun searchMovies(@Query("s") query: String, @Query("apikey") apiKey: String): MovieSearchResponse
 
     @GET("/")
-    suspend fun getMovieDetails(@Query("i") imdbID: String, @Query("apikey") apiKey: String): MovieDetailResponse
+    suspend fun getMovieDetails(@Query("i") imdbID: String, @Query("apikey") apiKey: String): Movie
 }
